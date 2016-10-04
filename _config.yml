@@ -23,4 +23,5 @@ instagram_username: albinsjodin
 
 # Build settings
 markdown: kramdown
+permalink: /:title
 # theme: albin-theme
