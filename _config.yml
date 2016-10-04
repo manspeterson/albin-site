@@ -26,4 +26,4 @@ instagram_username: albinsjodin
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: albin-theme
