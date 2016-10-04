@@ -5,13 +5,13 @@ layout: default
 
   <header class="media-header">
     <h1 class="media-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="media-meta">{% page.year %}<br/>{% page.categories %}</p>
+    <p class="media-meta">{{ page.year }}<br/>{{ page.categories }}</p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {% page.video %}
+    {{ page.video }}
     {{ content }}
-    }
+    
   </div>
 
 </article>
