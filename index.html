@@ -6,7 +6,7 @@ layout: default
     <ul class="post-list">
         {% for item in site.posts %}
         <li>
-            <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><img class="media-img" src="{{ item.image-url }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />
+            <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><img class="media-img" src="{{ item.image-url | prepend: site.baseurl }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />
                 <h2>
           {{ item.title | escape }}
 
@@ -14,5 +14,5 @@ layout: default
         </li>
         {% endfor %}
     </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.github.url }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
 </div>

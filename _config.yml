@@ -17,7 +17,7 @@ title: albin sjödin—director of photography
 email: hi@albinsjodin.com
 description: > # this means to ignore newlines until "baseurl:"
   the home and portfolio of albin sjödin, director of photography. 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/albin-site" # the subpath of your site, e.g. /blog
 url: "http://albinsjodin.com" # the base hostname & protocol for your site
 instagram_username: albinsjodin
 
@@ -25,3 +25,5 @@ instagram_username: albinsjodin
 markdown: kramdown
 permalink: /:title
 # theme: albin-theme
+
+
