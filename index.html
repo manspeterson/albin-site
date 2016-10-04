@@ -1,23 +1,18 @@
+--- 
+layout: default 
 ---
-layout: default
----
-
 <div class="home">
+    <h1 class="page-heading">Posts</h1>
+    <ul class="post-list">
+        {% for item in site.posts %}
+        <li>
+            <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><img class="media-img" src="{{ item.image-url }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />
+                <h2>
+          {{ item.title | escape }}
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.github.url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.github.url }}">via RSS</a></p>
-
+        </h2>({{ item.year | escape }})<br/>{{ item.role | escape }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.github.url }}">via RSS</a></p>
 </div>
