@@ -5,7 +5,7 @@ layout: default
 
   <header class="media-header">
     <h1 class="media-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="media-meta">{{ page.year }}<br/>{{ page.categories }}</p>
+    <p class="media-meta">{{ page.year }}<br/>{{ page.categories | escape }}</p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
