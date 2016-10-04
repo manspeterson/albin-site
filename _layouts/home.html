@@ -14,7 +14,7 @@ layout: default
   <ul class="post-list">
     {% for item in site.portfolio %}
       <li>
-        <img class="media-img" src="{{item.image.url}}" alt="{{item.image.alt}}" title="{{item.image.title}}"/>
+        <img class="media-img" src="{{item.image-url}}" alt="{{item.title | escape}}" title="{{item.title | escape}}"/>
         <h2>
           <a class="post-link" href="{{ item.url | prepend: full_base_url }}">{{ item.title | escape }}</a>
         </h2>
