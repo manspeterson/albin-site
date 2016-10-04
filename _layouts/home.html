@@ -12,12 +12,11 @@ layout: default
   {% assign full_base_url = site.github.url %}
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for item in site.portfolio %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+        <img class="media-img" src="{{item.image.url}}" alt="{{item.image.alt}}" title="{{item.image.title}}"/>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: full_base_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ item.url | prepend: full_base_url }}">{{ item.title | escape }}</a>
         </h2>
       </li>
     {% endfor %}
