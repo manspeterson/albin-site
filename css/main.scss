@@ -11,13 +11,16 @@
 
 $break-desk: 1130px;
 $break-huge: 1440px;
+$break-ipad: 768px;
 
 body {
 	font-family: 'Univers LT W01_55 Roman1475956', Helvetica, Arial, sans-serif;
 	font-size: 13px;
+
 	@media screen and (max-width: $break-desk) {
 		font-size: 1.15vw;
 	}
+	@media screen and (max-width: $break-ipad) { font-size: 1.4vw; }
 	@media screen and (min-width: $break-huge) {
 		font-size: 0.9vw;
 	}
@@ -34,9 +37,11 @@ a {
 		text-decoration: none;
 		border-bottom: 1px solid black;
 		font-size: 12px;
+		
 		@media screen and (max-width: $break-desk) {
 			font-size: 1.08vw;
 		}
+		@media screen and (max-width: $break-ipad) { font-size: 1.3vw; }
 		@media screen and (min-width: $break-huge) {
 			font-size: 0.85vw;
 		}
@@ -45,9 +50,11 @@ a {
 	&.media-link, &.site-title, .instafeed & {
 		border-bottom: none;
 		font-size: 13px;
+		
 		@media screen and (max-width: $break-desk) {
 			font-size: 1.15vw;
 		}
+		@media screen and (max-width: $break-ipad) { font-size: 1.4vw; }
 		@media screen and (min-width: $break-huge) {
 			font-size: 0.9vw;
 		}
@@ -91,9 +98,11 @@ a {
 		line-height: 1.25;
 		margin-bottom: 5px;
 		font-size: 12px;
+		
 		@media screen and (max-width: $break-desk) {
 			font-size: 1.08vw;
 		}
+		@media screen and (max-width: $break-ipad) { font-size: 1.3vw; }
 		@media screen and (min-width: $break-huge) {
 			font-size: 0.85vw;
 		}
@@ -156,6 +165,7 @@ article.post-item {
 }
 .c33, .instafeed img {
 	width: 33.333%;
+	@media screen and (max-width: $break-ipad) {width: 50%;}
 	box-sizing: border-box;
 	padding-right: 4%;
 	padding-bottom: 4%;
@@ -166,13 +176,17 @@ article.post-item {
 }
 .c33o {
 	padding-left: 33.333%;
+	@media screen and (max-width: $break-ipad) {padding-left:0;}
 } 
 .c67o {
-	padding-left: 66.7%;	
+	padding-left: 66.7%;
+	@media screen and (max-width: $break-ipad) {padding-left:50%;}
+
 }
 
 .c67 {
 	width: 66.6667%;
+	@media screen and (max-width: $break-ipad) {width: 50%;}
 	box-sizing: border-box;
 	padding-right: 4%;
 	padding-bottom: 2%;
@@ -218,6 +232,12 @@ footer p {
 }
 p {
 	line-height: 1.5;
+}
+
+@media screen and (max-width: $break-ipad) {
+	.page-heading, .post-title {
+		padding-bottom: 2%;
+	}
 }
 
 
