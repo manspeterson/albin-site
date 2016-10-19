@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title:  "vita bandet – inga hinder (feat. niello)"
+title:  "vita bandet – inga hinder"
 year: 2015
 categories: "music video"
 video: "<iframe width='560' height='315' src='https://player.vimeo.com/video/131577700' frameborder='0' allowfullscreen></iframe>"
