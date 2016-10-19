@@ -12,8 +12,9 @@
 $break-desk: 1130px;
 $break-huge: 1440px;
 $break-ipad: 768px;
+$break-iphone: 414px;
 
-body {
+body, footer p {
 	font-family: 'Univers LT W01_55 Roman1475956', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 
@@ -21,6 +22,7 @@ body {
 		font-size: 1.15vw;
 	}
 	@media screen and (max-width: $break-ipad) { font-size: 1.4vw; }
+	@media screen and (max-width: $break-iphone) { font-size: 2.5vw; }
 	@media screen and (min-width: $break-huge) {
 		font-size: 0.9vw;
 	}
@@ -42,6 +44,7 @@ a {
 			font-size: 1.08vw;
 		}
 		@media screen and (max-width: $break-ipad) { font-size: 1.3vw; }
+		@media screen and (max-width: $break-iphone) { font-size: 2.4vw; }
 		@media screen and (min-width: $break-huge) {
 			font-size: 0.85vw;
 		}
@@ -55,6 +58,7 @@ a {
 			font-size: 1.15vw;
 		}
 		@media screen and (max-width: $break-ipad) { font-size: 1.4vw; }
+		@media screen and (max-width: $break-iphone) { font-size: 2.5vw; }
 		@media screen and (min-width: $break-huge) {
 			font-size: 0.9vw;
 		}
@@ -102,7 +106,8 @@ a {
 		@media screen and (max-width: $break-desk) {
 			font-size: 1.08vw;
 		}
-		@media screen and (max-width: $break-ipad) { font-size: 1.3vw; }
+		@media screen and (max-width: $break-ipad) { font-size: 1.3vw; margin-bottom: 0; color: black; }
+		@media screen and (max-width: $break-iphone) { font-size: 2.4vw; }
 		@media screen and (min-width: $break-huge) {
 			font-size: 0.85vw;
 		}
@@ -173,6 +178,7 @@ article.post-item {
 
 .post-list .c33 {
 	padding-bottom: 2%;
+	@media screen and (max-width: $break-ipad) {padding-bottom:4%;}
 }
 .c33o {
 	padding-left: 33.333%;
@@ -189,14 +195,14 @@ article.post-item {
 	@media screen and (max-width: $break-ipad) {width: 50%;}
 	box-sizing: border-box;
 	padding-right: 4%;
-	padding-bottom: 2%;
+	padding-bottom: 4%;
 }
 
 .c100 {
 	width: 100%;
 	box-sizing: border-box;
 	
-	padding-bottom: 2%;
+	padding-bottom: 4%;
 }
 
 .instafeed img {
@@ -236,7 +242,8 @@ p {
 
 @media screen and (max-width: $break-ipad) {
 	.page-heading, .post-title {
-		padding-bottom: 2%;
+		padding-bottom: 4%;
+		padding-top: 20%;
 	}
 }
 
