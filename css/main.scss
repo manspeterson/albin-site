@@ -14,6 +14,10 @@ $break-huge: 1440px;
 $break-ipad: 768px;
 $break-iphone: 414px;
 
+body {
+	position: relative;
+	min-heihgt: 100vh;
+}
 body, footer .wrapper p, h1 {
 	font-family: 'Univers LT W01_55 Roman1475956', Helvetica, Arial, sans-serif;
 	font-size: 13px;
