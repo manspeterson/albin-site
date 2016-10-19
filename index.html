@@ -2,17 +2,16 @@
 layout: default 
 ---
 <div class="home">
-    <h1 class="page-heading">Posts</h1>
-    <ul class="post-list">
+    <h1 class="page-heading">Portfolio</h1>
+    <div class="post-list">
         {% for item in site.posts %}
-        <li>
+        <article class="post-item c33">
             <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><img class="media-img" src="{{ item.image-url | prepend: site.baseurl }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />
-                <h2>
-          {{ item.title | escape }}
-
-        </h2>({{ item.year | escape }})<br/>{{ item.role | escape }}</a>
-        </li>
+                <div class="post-item-title"><h2>{{ item.title | escape }}</h2></div>
+                <h3>{{ item.role | escape }}</h3></a>
+        </article>
         {% endfor %}
-    </ul>
-    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
 </div>
+

@@ -1,27 +1,18 @@
+--- 
+layout: default 
 ---
-layout: default
----
-
 <div class="home">
+    <h1 class="page-heading">Posts</h1>
+    <div class="post-list">
+        {% for item in site.posts %}
+        <article class="post-item c33">
+            <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><img class="media-img" src="{{ item.image-url | prepend: site.baseurl }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />
+                <h2>
+          {{ item.title | escape }}
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
-
-  {% assign custom_url = site.url | append: site.baseurl %}
-  {% assign full_base_url = site.baseurl %}
-
-  <ul class="post-list">
-    {% for item in site.portfolio %}
-      <li>
-        <img class="media-img" src="{{ item.image-url }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}"/>
-        <h2>
-          <a class="post-link" href="{{ item.url | prepend: full_base_url }}">{{ item.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: full_base_url }}">via RSS</a></p>
-
+        </h2>{{ item.role | escape }}</a>
+        </article>
+        {% endfor %}
+    </div>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml " | prepend: site.baseurl }}">via RSS</a></p> -->
 </div>

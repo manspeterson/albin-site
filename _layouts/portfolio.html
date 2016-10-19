@@ -1,17 +1,17 @@
----
-layout: default
+--- 
+layout: default 
 ---
 <article class="media">
-
-  <header class="media-header">
-    <h1 class="media-title" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="media-meta">{{ page.year }}<br/>{{ page.categories | escape }}</p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    {{ page.video }}
-    {{ content }}
+    <div class="col c33">
+        <h1>{{ page.title | escape }}</h1></div>
+    <div class="col c33o c100 video"><div class="video-container">{{ page.video }}</div></div>
+    <div class="col c33o c67 post-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+    <div class="col c33">
+        <header class="media-header">
+            <p class="media-meta">{{ page.categories | join: ' ' }}<br/>{{ page.year }}</p>
+        </header>
+    </div>
     
-  </div>
-
 </article>

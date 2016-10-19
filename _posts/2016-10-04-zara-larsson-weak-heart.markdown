@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title:  "Zara Larsson – Weak Heart"
+title:  "zara larsson – weak heart"
 year: 2015
 categories: "music video"
 video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/iWJYon-Bhvs' frameborder='0' allowfullscreen></iframe>"

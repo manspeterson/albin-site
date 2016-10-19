@@ -1,0 +1,22 @@
+--- 
+layout: default
+---
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+    </header>
+    <div class="col c33o c67 post-content">
+        {{ content }}
+    </div>
+     
+    <div class="col c33o c67"><h2>clients</h2>
+    <div class="clients">
+    <p>
+    <br/>
+        {% for client in page.clients %} {{client}}
+        <br/> {% endfor %}</p>
+    </div>
+    </div>
+    <div class="col c33"><h2>contact</h2><p><br/><a href="mailto:hi@albinsjodin.com">hi@albinsjodin.com</a><br/><a href="tel://+46727137568">+46 727 137 568</a></p></div>
+    <div class="col c67o c100 profile-photo"><img src="{{ '/img/albin.jpg' | prepend: site.baseurl }}">albin sjödin, dop.</div>
+</article>
