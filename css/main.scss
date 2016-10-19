@@ -16,10 +16,10 @@ body {
 	font-family: 'Univers LT W01_55 Roman1475956', Helvetica, Arial, sans-serif;
 	font-size: 13px;
 	@media screen and (max-width: $break-desk) {
-		font-size: 0.9vw;
+		font-size: 1.15vw;
 	}
 	@media screen and (min-width: $break-huge) {
-		font-size: 0.9vw;
+		font-size: 1.15vw;
 	}
 	
 	font-weight: 400;
@@ -35,10 +35,10 @@ a {
 		border-bottom: 1px solid black;
 		font-size: 12px;
 		@media screen and (max-width: $break-desk) {
-			font-size: 0.85vw;
+			font-size: 1.08vw;
 		}
 		@media screen and (min-width: $break-huge) {
-			font-size: 0.85vw;
+			font-size: 1.08vw;
 		}
 	}
 
@@ -46,10 +46,10 @@ a {
 		border-bottom: none;
 		font-size: 13px;
 		@media screen and (max-width: $break-desk) {
-			font-size: 0.9vw;
+			font-size: 1.15vw;
 		}
 		@media screen and (min-width: $break-huge) {
-			font-size: 0.9vw;
+			font-size: 1.15vw;
 		}
 	}
 
@@ -92,10 +92,10 @@ a {
 		margin-bottom: 5px;
 		font-size: 12px;
 		@media screen and (max-width: $break-desk) {
-			font-size: 0.85vw;
+			font-size: 1.08vw;
 		}
 		@media screen and (min-width: $break-huge) {
-			font-size: 0.85vw;
+			font-size: 1.08vw;
 		}
 	}
 
