@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title:  “made real vodka - meet the co-creators“
+title:  "made real vodka - meet the co-creators"
 year: 2015
-categories: “promo“
+categories: "promo"
 video: "<iframe width='560' height='315' src='https://www.youtube.com/watch?v=L-ZUGh2up7g' frameborder='0' allowfullscreen></iframe>"
-role: "DP”
-client: “The Absolut Company“
+role: "DP"
+client: "The Absolut Company"
 image-url: /img/madereal.jpg
 ---
 
