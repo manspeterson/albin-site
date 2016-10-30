@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /about/
-clients: ["universal ab","sony music ab","adidas","yacht week","avicii","klingande"]
+clients: ["universal music group","sony music","adidas","the yacht week","avicii","the absolut company","armada music","opa people","klingande","unity group france"]
 
 ---
 
