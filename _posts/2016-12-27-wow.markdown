@@ -1,0 +1,12 @@
+---
+layout: portfolio
+title:  “way out west 2016 - aftermovie“
+year: 2016
+categories: “promo“
+video: "<iframe width='560' height='315' src='https://vimeo.com/193616608' frameborder='0' allowfullscreen></iframe>"
+role: "DP”
+client: “Luger“
+image-url: /img/wow
+---
+
+Celebrating 10 years of Way out West summer festival. Directed by Gustav Bondeson.
