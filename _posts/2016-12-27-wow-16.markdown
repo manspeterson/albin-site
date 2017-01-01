@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title:  “way out west 2016 - aftermovie“
+title:  "way out west 2016 - aftermovie"
 year: 2016
-categories: “promo“
+categories: "promo"
 video: "<iframe width='560' height='315' src='https://vimeo.com/193616608' frameborder='0' allowfullscreen></iframe>"
-role: "DOP”
-client: “Luger“
+role: "DOP"
+client: "Luger"
 image-url: /img/wow.jpg
 ---
 
