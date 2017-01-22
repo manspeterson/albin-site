@@ -131,6 +131,8 @@ a {
 
 	&:hover .media-img {
 		filter: none;
+		-webkit-filter: none;
+		-moz-filter: none;
 	}
 	
 }
@@ -163,7 +165,7 @@ article.post-item {
 	box-sizing: border-box;
 }
 
-.media-img, .instafeed img {
+.media-img { /*.instafeed img*/
 	width: 100%;
 	filter: grayscale(0.8);
 	-moz-filter: grayscale(0.8);
