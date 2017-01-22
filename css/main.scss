@@ -164,6 +164,13 @@ article.post-item {
 .media-img, .instafeed img {
 	width: 100%;
 	filter: grayscale(0.8);
+	-moz-filter: grayscale(0.8);
+	-webkit-filter: grayscale(0.8);
+	@media screen and (max-width: $break-ipad) {
+		filter: none;
+		-webkit-filter: none;
+		-moz-filter: none;
+	}
 }
 
 
