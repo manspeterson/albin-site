@@ -9,4 +9,4 @@ client: "circle k"
 image-url: /img/bris_img.jpg
 ---
 
-Circle K supports BRIS for childrens rights. Directed by Robin Knight. Produced by Practice Films.
+Circle K supports BRIS for childrens rights. Two-piece commercial directed by Robin Knight. Produced by Practice Films.
