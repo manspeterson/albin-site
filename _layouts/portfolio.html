@@ -4,7 +4,9 @@ layout: default
 <article class="media">
     
         <h1 class="page-heading">{{ page.title | escape }}</h1>
-    <div class="col c33o c100 video"><div class="video-container">{{ page.video }}</div></div>
+    {% for v in page.video %}
+    <div class="col c33o c100 video"><div class="video-container">{{ v }}</div></div>
+    {% endfor %}
     <div class="col c33o c67 post-content" itemprop="articleBody">
         {{ content }}
     </div>

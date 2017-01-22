@@ -3,7 +3,7 @@ layout: portfolio
 title:  "circle k x bris"
 year: 2016
 categories: "promo"
-video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/dtn6dWw6qBw?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe><iframe width='560' height='315' src='https://www.youtube.com/embed/dtn6dWw6qBw?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>"
+video: ["<iframe width='560' height='315' src='https://www.youtube.com/embed/dtn6dWw6qBw?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>","<iframe width='560' height='315' src='https://www.youtube.com/embed/dtn6dWw6qBw?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe>"]
 role: "dop"
 client: "circle k"
 image-url: /img/bris_img.jpg
