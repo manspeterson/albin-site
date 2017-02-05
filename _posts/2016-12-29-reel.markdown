@@ -5,7 +5,7 @@ year: 2016
 categories: “promo“
 video: "<iframe width='560' height='315' src='https://player.vimeo.com/video/202633705' frameborder='0' allowfullscreen></iframe>"
 role: "DP”
-client: ““
+client: “ “
 image-url: /img/reel_img.jpg
 ---
 
