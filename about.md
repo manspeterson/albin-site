@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /about/
-brand experience: ["universal music group","sony music","adidas","the yacht week","avicii","the absolut company","armada music","opa people","unity group france","circle k","bris","summerburst","beckers","fagerhult"]
+clients: ["universal music group","sony music","adidas","the yacht week","avicii","the absolut company","armada music","opa people","unity group france","circle k","bris","summerburst","beckers","fagerhult"]
 
 ---
 
