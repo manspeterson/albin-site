@@ -6,7 +6,7 @@ layout: default
     <div class="post-list">
         {% for item in site.posts %}
         <article class="post-item c33">
-            <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><img class="media-img" src="{{ item.image-url | prepend: site.baseurl }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" />
+            <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><div class="image-holder"><img class="media-img" src="{{ item.image-url | prepend: site.baseurl }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" /></div>
                 <div class="post-item-title"><h2>{{ item.title | escape }}</h2></div>
                 <h3>{{ item.role | escape }}</h3></a>
         </article>

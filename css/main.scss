@@ -268,4 +268,19 @@ p {
     position: relative;
 }
 
+.image-holder {
+  display: inline-block;
+  background-color: black;
+
+  img {
+    opacity: 0;
+    display: block;
+    transition: opacity 0.6s ease;
+  }
+
+  &.loaded img {
+    opacity: 1;
+  }
+}
+
 
