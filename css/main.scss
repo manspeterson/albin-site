@@ -278,7 +278,10 @@ p {
     opacity: 0;
     display: block;
     transition: opacity 0.6s ease;
-    position: absolute;
+  }
+
+  & > * {
+     position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
