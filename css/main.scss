@@ -281,6 +281,9 @@ p {
   &.loaded img {
     opacity: 1;
   }
+  &.loading {
+  	padding-top: 56.25%;
+  }
 }
 
 

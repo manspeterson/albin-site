@@ -9,6 +9,7 @@
         var tempImg = new Image();
         
         tempImg.onload = function () {
+          $wrapper.removeClass('loading');
           $wrapper.addClass('loaded');
         };
         tempImg.src = img.src;
