@@ -25,5 +25,5 @@ instagram_username: albinsjodin
 markdown: kramdown
 permalink: /:title
 # theme: albin-theme
-
+future: true
 
