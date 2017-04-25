@@ -16,6 +16,8 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Year", name: "year", widget: "number"}
+      - {label: "Category", name: "categories", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
       - {label: "Featured Image", name: "image-url", widget: "image"}
       - {label: "Client", name: "client", widget: "string"}
       - {label: "Video", name: "video", widget: "list"}
