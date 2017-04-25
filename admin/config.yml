@@ -2,7 +2,7 @@ backend:
   name: github
   repo: manspeterson/albin-site # Path to your Github repository
   branch: master # Branch to update
-  site_domain:  albinsjodin.netlify.com # Your Netlify site address if different from host
+  # site_domain:  albinsjodin.netlify.com # Your Netlify site address if different from host
 
 media_folder : "img"
 
