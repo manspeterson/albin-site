@@ -3,7 +3,8 @@ layout: portfolio
 title: "reel // 2017"
 year: 2016
 categories: "promo"
-video: "<iframe width='560' height='315' src='https://player.vimeo.com/video/202633705' frameborder='0' allowfullscreen></iframe>"
+video: 
+	- "<iframe width='560' height='315' src='https://player.vimeo.com/video/202633705' frameborder='0' allowfullscreen></iframe>"
 role: "DoP"
 client: " "
 image-url: /img/reel2_img.jpg
