@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Chimi Clear Campaign
+title: Chimi X Rachel Cook
 year: '2017'
 categories: commercial
 role: 'director, dp'
