@@ -10,12 +10,9 @@ video:
   - >-
     <iframe src="https://player.vimeo.com/video/236126035" width="640"
     height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen
-    allowfullscreen></iframe> <iframe
-    src="https://player.vimeo.com/video/235261891" width="640" height="337"
-    frameborder="0" webkitallowfullscreen mozallowfullscreen
     allowfullscreen></iframe>
 ---
-Chimi Clear is here! Featuring RACHEL COOK & ROCKY BARNES
+Chimi Clear is here! Featuring RACHEL COOK
 
 Art Direction JONAS LÖHR & CHARLIE LINDSTRÖM
 
