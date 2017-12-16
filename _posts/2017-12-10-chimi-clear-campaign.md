@@ -7,7 +7,10 @@ role: 'director, dp'
 image-url: /img/chimi_clear_img.jpg
 client: Chimi Eyewear
 video:
-  - 'https://vimeo.com/236126035'
+  - >-
+    <iframe src="https://player.vimeo.com/video/236126035" width="640"
+    height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    allowfullscreen></iframe>
 ---
 Chimi Clear is here! Featuring RACHEL COOK
 
