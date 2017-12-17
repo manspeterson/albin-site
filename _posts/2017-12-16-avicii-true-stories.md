@@ -2,7 +2,6 @@
 layout: portfolio
 title: Avicii - True Stories
 year: '2017'
-date: '2017-12-16'
 categories: documentary
 role: contributing cinematography
 image-url: /img/avicii_img.jpg
@@ -12,7 +11,7 @@ video:
     <iframe width="560" height="315"
     src="https://www.youtube.com/embed/1ZFK3VKzQIs?ecver=1" frameborder="0"
     gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-weight: '1'
+date: '2017-12-20'
 ---
 Directed by Levan Tsikurishvili
 
