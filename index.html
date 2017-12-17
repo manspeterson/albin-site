@@ -4,6 +4,7 @@ layout: default
 <div class="home">
     <h1 class="page-heading">Portfolio</h1>
     <div class="post-list">
+        {% assign site.posts = site.posts | sort:"weight" | reverse %}
         {% for item in site.posts %}
         <article class="post-item c33">
             <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><div class="image-holder loading"><img class="media-img" src="{{ item.image-url | prepend: site.baseurl }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" /></div>
