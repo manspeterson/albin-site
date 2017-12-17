@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Avicii - True Stories
+title: Avicii - True Storie
 year: '2017'
 categories: documentary
 role: contributing cinematography
