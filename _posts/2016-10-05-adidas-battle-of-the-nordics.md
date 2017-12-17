@@ -2,6 +2,7 @@
 layout: portfolio
 title:  "adidas — battle of the nordics"
 year: 2015
+date: '2016-10-05'
 categories: "commercial"
 video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/dYvdFJQ6_hk' frameborder='0' allowfullscreen></iframe>"
 role: "contributing cinematography"

@@ -2,6 +2,7 @@
 layout: portfolio
 title:  "heart/dancer — waterfalls"
 year: 2015
+date: '2016-10-01'
 categories: "music video"
 video: "<iframe width='560' height='315' src='https://player.vimeo.com/video/98261168' frameborder='0' allowfullscreen></iframe>"
 role: "dop"
