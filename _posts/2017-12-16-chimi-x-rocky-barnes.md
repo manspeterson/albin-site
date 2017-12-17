@@ -2,6 +2,7 @@
 layout: portfolio
 title: Chimi X Rocky Barnes
 year: '2017'
+date: '2017-12-16'
 categories: commercial
 role: 'director, dp'
 image-url: /img/chimi_clear2_img.jpg
