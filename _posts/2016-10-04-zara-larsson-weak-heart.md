@@ -4,7 +4,9 @@ title:  "zara larsson – weak heart"
 year: 2015
 date: '2016-10-04'
 categories: "music video"
-video: "<iframe width='560' height='315' src='https://www.youtube.com/embed/iWJYon-Bhvs' frameborder='0' allowfullscreen></iframe>"
+video: 
+  - >-
+    <iframe width='560' height='315' src='https://www.youtube.com/embed/iWJYon-Bhvs' frameborder='0' allowfullscreen></iframe>
 role: "cinematography"
 client: "TEN Music Group"
 image-url: /img/zaralarsson-weakheart.jpg
