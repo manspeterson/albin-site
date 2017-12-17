@@ -11,6 +11,7 @@ video:
     <iframe src="https://player.vimeo.com/video/236126035" width="640"
     height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen
     allowfullscreen></iframe>
+date: '2017-12-10'
 ---
 Chimi Clear is here! Featuring RACHEL COOK
 
