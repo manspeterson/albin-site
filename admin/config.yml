@@ -22,7 +22,7 @@ collections:
       - {label: "Client", name: "client", widget: "string"}
       - {label: "Video", name: "video", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Datum (sortering)", name: "date", widget: "string", default: "{{year}}-{{month}}-{{day}}"}
+      - {label: "Datum (sortering)", name: "date", widget: "string"}
   - name: "about" # Used in routes, e.g. /admin/collections/blog
     label: "About" # Used in the UI
     folder: "" # The path to the folder where the documents are stored
