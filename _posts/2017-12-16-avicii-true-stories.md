@@ -11,7 +11,7 @@ video:
     <iframe width="560" height="315"
     src="https://www.youtube.com/embed/1ZFK3VKzQIs?ecver=1" frameborder="0"
     gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-date: '2017-11-26'
+date: '2017-10-26'
 ---
 Directed by Levan Tsikurishvili
 
