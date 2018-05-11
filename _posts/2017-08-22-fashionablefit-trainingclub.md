@@ -2,7 +2,6 @@
 layout: portfolio
 title: fashionablefit // trainingclub
 year: '2017'
-date: '2017-08-22'
 categories: promo
 role: DP
 image-url: /img/fashionable_img.jpg
@@ -12,6 +11,7 @@ video:
     <iframe width='560' height='315'
     src='https://player.vimeo.com/video/230145227' frameborder='0'
     allowfullscreen></iframe>
+date: '2017-11-22'
 ---
 CREATIVE DIRECTION Jonas Löhr (FWB Marketing) & Hannah Andersson (Fashionablefit)
 
