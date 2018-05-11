@@ -8,8 +8,7 @@ layout: default
         {% for item in site_posts %}
         <article class="post-item c33">
             <a class="media-link" href="{{ item.url | prepend: site.baseurl }}"><div class="image-holder loading"><img class="media-img" src="{{ item.image-url | prepend: site.baseurl }}" alt="{{ item.title | escape }}" title="{{ item.title | escape }}" /></div>
-                <div class="post-item-title"><h2>{{ item.title | escape }}</h2></div>
-                <h3>{{ item.role | escape }}</h3></a>
+                <div class="post-item-title"><h2>{{ item.title | escape }}</h2></div></a>
         </article>
         {% endfor %}
     </div>
