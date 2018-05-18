@@ -4,7 +4,7 @@ title: I TYSTNADEN (In Silence)
 year: '2018'
 categories: short
 role: dp
-image-url: /img/tystnaden_img.jpg
+image-url: /img/insilence_img.jpg
 client: n/a
 video:
   - >-
