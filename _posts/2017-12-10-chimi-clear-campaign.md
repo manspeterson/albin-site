@@ -4,7 +4,7 @@ title: Chimi X Rachel Cook
 year: '2017'
 categories: commercial
 role: 'director, dp'
-image-url: /img/chimi_clear_img.jpg
+image-url: /img/rachelcook_img.jpg
 client: Chimi Eyewear
 video:
   - >-
