@@ -8,6 +8,7 @@ clients:
   - warner music
   - adidas
   - urbanista
+  - chimi eyewear
   - the yacht week
   - avicii
   - the absolut company
