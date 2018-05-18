@@ -7,7 +7,10 @@ role: dop
 image-url: /img/makeupyourmind_img.jpg
 client: capitol music group
 video:
-  - '130463776'
+  - >-
+    <iframe src="https://player.vimeo.com/video/269501264" width="640"
+    height="337" frameborder="0" webkitallowfullscreen mozallowfullscreen
+    allowfullscreen></iframe>
 date: '2018-05-05'
 ---
 kev for capitol music france
