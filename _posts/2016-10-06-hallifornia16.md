@@ -1,15 +1,17 @@
 ---
 layout: portfolio
-title:  "hallifornia 2016"
+title: hallifornia
 year: 2016
-date: '2016-10-06'
-categories: "promo"
-video: 
-  - >-
-    <iframe width='560' height='315' src='https://player.vimeo.com/video/189618430?title=0&byline=0&portrait=0' frameborder='0' allowfullscreen></iframe>
-role: "dop"
-client: "nordic surfers"
+categories: promo
+role: dop
 image-url: /img/halli16_img.jpg
+client: nordic surfers
+video:
+  - >-
+    <iframe width='560' height='315'
+    src='https://player.vimeo.com/video/189618430?title=0&byline=0&portrait=0'
+    frameborder='0' allowfullscreen></iframe>
+date: '2016-10-06'
 ---
 
 Recap from summer festival Hallifornia 2016. Produced by Nordic Surfers.
