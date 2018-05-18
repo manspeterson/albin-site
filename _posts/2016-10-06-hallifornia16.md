@@ -4,7 +4,7 @@ title: hallifornia
 year: 2016
 categories: promo
 role: dop
-image-url: /img/halli16_img.jpg
+image-url: /img/hallifornia_img.jpg
 client: nordic surfers
 video:
   - >-
