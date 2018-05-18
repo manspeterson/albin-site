@@ -11,6 +11,8 @@ clients:
   - the yacht week
   - avicii
   - the absolut company
+  - kahlua
+  - paypal
   - armada music
   - opa people
   - unity group france
