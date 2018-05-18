@@ -14,6 +14,7 @@ clients:
   - the absolut company
   - kahlua
   - paypal
+  - wine-a-porter
   - armada music
   - opa people
   - unity group france
