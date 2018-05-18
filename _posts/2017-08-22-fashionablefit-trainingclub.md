@@ -4,7 +4,7 @@ title: fashionablefit // trainingclub
 year: '2017'
 categories: promo
 role: DP
-image-url: /img/fashionable_img.jpg
+image-url: /img/fashionablefit_img.jpg
 client: FWB Marketing
 video:
   - >-
