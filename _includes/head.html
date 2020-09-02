@@ -9,13 +9,7 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.baseurl }}">
   <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/1d5dbb79-c5eb-4bd7-86df-1cb3f2a4e966.css"/>
-  <script   src="https://code.jquery.com/jquery-3.1.1.slim.min.js"   integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc="   crossorigin="anonymous"></script>
-
-  {% if page.url == "/instagram/" %}
-  <script type="text/javascript" src="{{ "/js/instafeed.min.js" | prepend: site.baseurl}}"></script>
-  {% endif %}
   
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}

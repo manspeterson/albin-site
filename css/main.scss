@@ -19,6 +19,10 @@ body, main {
 	min-height: 90vh;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
+body {
+	color: white;
+	background: black;
+}
 body, footer .wrapper p, h1 {
 	font-family: 'Univers LT W01_55 Roman1475956', Helvetica, Arial, sans-serif;
 	font-size: 13px;
@@ -41,9 +45,9 @@ body, footer .wrapper p, h1 {
 a {
 	&, &:hover,
 	&:visited {
-		color: #000;
+		color: white;
 		text-decoration: none;
-		border-bottom: 1px solid black;
+		border-bottom: 1px solid white;
 		font-size: 12px;
 		
 		@media screen and (max-width: $break-desk) {
@@ -105,7 +109,7 @@ a {
 	}
 
 	& h2, & h3 {
-		border-bottom: 1px solid black;
+		border-bottom: 1px solid white;
 		display: inline-block;
 		line-height: 1.25;
 		margin-bottom: 5px;
@@ -114,7 +118,7 @@ a {
 		@media screen and (max-width: $break-desk) {
 			font-size: 1.08vw;
 		}
-		@media screen and (max-width: $break-ipad) { font-size: 1.3vw; margin-bottom: 0; color: black; }
+		@media screen and (max-width: $break-ipad) { font-size: 1.3vw; margin-bottom: 0; color: white; }
 		@media screen and (max-width: $break-iphone) { font-size: 2.38vw; }
 		@media screen and (min-width: $break-huge) {
 			font-size: 0.85vw;
@@ -128,7 +132,7 @@ a {
 
 
 	&:hover {
-		color: black;
+		color: white;
 	}
 
 	&:hover .media-img {
