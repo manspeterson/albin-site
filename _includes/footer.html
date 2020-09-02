@@ -1,19 +1,1 @@
 <footer><div class="wrapper"><div class="col c100"><p>crafted with love by <a href="http://art33.se" class="footer-link" target="_blank">art.33</a>.</p></div></div></footer>
-
-  {% if page.url == "/" %}
-  <script>
-       $('.image-holder').each(function () {
-        var $wrapper = $(this);
-        var img = $wrapper.find('img')[0];
-
-        var tempImg = new Image();
-        
-        tempImg.onload = function () {
-          $wrapper.removeClass('loading');
-          $wrapper.addClass('loaded');
-        };
-        tempImg.src = img.src;
-      });
-    
-  </script>
-  {% endif %}
